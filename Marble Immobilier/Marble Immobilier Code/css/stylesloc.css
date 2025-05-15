@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../img/back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 10px;
+}
+.card-content {
+    text-align: center;
+}
+.card-content h3 {
+    color: #27ae60;
+}
+.card-content p {
+    margin: 5px 0;
+}
+.price {
+    font-size: 1.2em;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.contact-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
